@@ -1,8 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Lemon);
+@import url(http://fonts.googleapis.com/css?family=Rancho);
+
+$font-family-sans-serif: 'Rancho', cursive;
+
+$navbar-height: 55px;
+
 $body-bg: 				#34495e;
 $navbar-default-bg:		#2ecc71;
 $navbar-default-link-color: #fff;
 
 $navbar-inverse-bg:		#2ecc71;
 $navbar-inverse-link-color: #fff;
+
+.center {
+	text-align: center;
+}
 
 @import 'bootstrap';
