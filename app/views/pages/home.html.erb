@@ -2,7 +2,7 @@
 	<h1>Welcome to the home page</h1>
 
 	<% if user_signed_in? %>
-		# do something
+		Let's get <%= link_to "Pinteresting", pins_path %>.
 	<% else %>	
 		<p>
 			<%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
